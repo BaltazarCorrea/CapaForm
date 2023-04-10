@@ -1,0 +1,15 @@
+product_category_new:
+    path: product/category/new
+    defaults: { _controller: ProductBundle:ProductCategory:newForm }
+
+product_category_edit:
+    path: product/category/edit
+    defaults: { _controller: ProductBundle:ProductCategory:editForm }
+
+product_new:
+    path: product/new
+    defaults: { _controller: ProductBundle:Product:newForm }
+
+product_edit:
+    path: product/edit
+    defaults: { _controller: ProductBundle:Product:editForm }
